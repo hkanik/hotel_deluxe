@@ -123,6 +123,7 @@ header {
     position: absolute;
     left: 12%;
     bottom: 70px;
+    -webkit-appearance: none;
     box-shadow: 2px 27px 44px -10px #9C9C9C;
 }
 
