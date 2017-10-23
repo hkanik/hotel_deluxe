@@ -11,6 +11,7 @@
 
 header {
     overflow: hidden;
+    width: 100%;
     background-color: #2A2D32;
     height: 100px;
 }
@@ -58,16 +59,17 @@ header {
 }
 
 .main_bg {
-    overflow: hidden;
+
     background-image: url(../images/banner.jpg);
     background-size: 100% 100%;
     min-height: 438px;
     background-color: black;
+    position: relative;
 }
 
 .banner {
     text-align: center;
-    position: relative;
+
 }
 
 .welocome_text {
@@ -117,13 +119,16 @@ header {
 }
 
 .view_pricing {
-    width: 1022px;
+    margin: 0 auto;
+    width: 1027px;
     height: 106px;
     background: #2A2E33;
     position: absolute;
-    left: 12%;
-    bottom: 70px;
+    left: 0;
+    right: 0;
+    bottom: -11%;
     -webkit-appearance: none;
+    -moz-appearance: none;
     box-shadow: 2px 27px 44px -10px #9C9C9C;
 }
 
@@ -260,7 +265,13 @@ header {
     overflow: hidden;
     background-image: url(../images/bg2.jpg);
     background-repeat: no-repeat;
-    min-height: 835px;
+    background-size: cover;
+    min-height: 830px;
+}
+
+.room_type_wrapper {
+    width: 1349px;
+    margin: 0 auto;
 }
 
 .room_type_title h1 {
@@ -371,12 +382,18 @@ header {
 .testimonial {
     min-height: 185px;
     background-color: #E7CB2C;
+    /* position: relative; */
+}
+
+.testimonial_wrapper {
+    width: 1208px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     position: relative;
 }
 
-.testimonial_data {
-    margin-left: 70px;
-}
+.testimonial_data {}
 
 .testimonial_data h1 {
     font-family: 'quicksand';
@@ -400,8 +417,8 @@ header {
 
 .person_img {
     position: absolute;
-    left: 75%;
-    bottom: -5px;
+    right: 0;
+    top: -77px;
 }
 
 footer {
@@ -411,8 +428,9 @@ footer {
 }
 
 .footer_wrpper {
-    width: 90%;
+    width: 1208px;
     margin: 0 auto;
+    height: 100px;
 }
 
 .about_hotel {
@@ -436,29 +454,29 @@ footer {
 }
 
 
-.latest_new {
+.latest_news {
     float: left;
     width: 230px;
     margin-left: 20px;
 }
 
-.latest_new h1 {
+.latest_news h1 {
     color: #C9C9C9;
     font-family: 'droid sans';
     font-size: 18px;
     padding-top: 25px;
 }
 
-.latest_new p {
+.latest_news p {
     color: #C9C9C9;
     font-family: 'quicksand';
     font-size: 12px;
-    padding-top: 13px;
+    padding-top: 10px;
     display: block;
     letter-spacing: 0.6px;
 }
 
-.latest_new a {
+.latest_news a {
     text-decoration: none;
     color: #89792E;
     letter-spacing: .6px;
